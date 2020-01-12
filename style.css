@@ -1,0 +1,67 @@
+.body{width: 1440px;} /*ПОЧЕМУ НЕ ВИДИТ БОДИ? из-за этого ширина поехала*/
+
+.wrapper {
+    width: 1440px;
+    height: 100px; 
+    }
+.topmenu {
+    float:right;
+    
+    display: flex;
+  align-items: center;
+    }
+.img {width: 154px;
+        height: 81px;
+        left: 28px;
+        float:left;}
+.menu1 {
+        list-style: none; 
+        margin: 0;
+        padding-left: 0; 
+        margin-right:50px; 
+        float:left;
+
+        text-decoration: none; 
+        font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.03em;  
+    color: #000000;
+      }
+ 
+.block1{
+    background-color: white;
+height: 659px;
+border-top: 1px solid #990000;
+background-image: url(/images/img1block.png); 
+    background-position: right;
+    background-repeat: no-repeat; 
+
+}
+
+
+.block2{height: 460px;
+background-color: #990000;
+
+}
+
+.block3{height: 980px;
+background-color: white;
+background-image: url(/images/img2block.png); 
+    background-position: left;
+    background-repeat: no-repeat; }
+
+.text{
+    position: absolute;
+    left: 176px;
+}
+.z{
+    left: 176px;
+    top: 351px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 53px; letter-spacing: 0.03em;
+   }
